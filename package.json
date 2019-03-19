@@ -1,9 +1,9 @@
 {
-  "name": "example-adapter",
-  "display_name": "Example",
-  "version": "0.5.0",
-  "description": "Example adapter add-on for Mozilla IoT Gateway",
-  "author": "Mozilla IoT",
+  "name": "powertag-adapter",
+  "display_name": "PowerTag",
+  "version": "0.1.0",
+  "description": "PowerTag adapter add-on for Mozilla IoT Gateway",
+  "author": "Stanislav Revay",
   "main": "index.js",
   "scripts": {
     "lint": "eslint ."
@@ -12,16 +12,18 @@
     "mozilla",
     "iot",
     "adapter",
-    "example"
+    "energy",
+    "monitor",
+    "powertag"
   ],
-  "homepage": "https://github.com/mozilla-iot/example-adapter",
+  "homepage": "https://github.com/StanoRevay/mozilla-iot",
   "license": "MPL-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mozilla-iot/example-adapter.git"
+    "url": "https://github.com/StanoRevay/mozilla-iot.git"
   },
   "bugs": {
-    "url": "https://github.com/mozilla-iot/example-adapter/issues"
+    "url": "https://github.com/StanoRevay/mozilla-iot/issues"
   },
   "devDependencies": {
     "eslint": "^5.12.0"
@@ -29,7 +31,7 @@
   "files": [
     "LICENSE",
     "SHA256SUMS",
-    "example-adapter.js",
+    "powertag-adapter.js",
     "index.js"
   ],
   "moziot": {
